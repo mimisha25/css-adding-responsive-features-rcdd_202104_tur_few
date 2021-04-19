@@ -5,3 +5,11 @@
 @media only screen and (max-width: 1108px) {
   .wrapper { width: 90%; }
 }
+
+body { font-size: 85%; }
+h1 { font-size: 2.5em; }
+h2 { font-size: 1em; }
+ 
+@media only screen and (max-width: 400px) {
+  body { font-size: 130%; }  
+}
