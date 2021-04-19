@@ -1,0 +1,27 @@
+.wrapper {
+  width: 960px;
+}
+
+@media only screen and (max-width: 1108px) {
+  .wrapper { width: 90%; }
+}
+
+body { font-size: 85%; }
+h1 { font-size: 35px; }
+h2 { font-size: 2.2em; }
+
+@media only screen and (max-width: 400px) {
+  body { font-size: 130%; }
+}
+
+.#navbar nav a {
+  width: 33.333%;
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .#navbar nav a {
+    width: 100%;
+    float: none;
+  }
+}
