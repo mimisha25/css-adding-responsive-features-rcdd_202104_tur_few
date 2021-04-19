@@ -7,8 +7,8 @@
 }
 
 body { font-size: 85%; }
-h1 { font-size: 2.5em; }
-h2 { font-size: 1em; }
+h1 { font-size: 35px; }
+h2 { font-size: 2.2em; }
 
 @media only screen and (max-width: 400px) {
   body { font-size: 130%; }
